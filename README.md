@@ -1,4 +1,5 @@
 # Tu primera red neuronal
+https://mthatwords.github.io/neural-net-colors/
 Este codigo, actualizado al 4 de marzo de 2021, sirve como soporte para el video "Tu primera red neuronal": 
 https://youtu.be/UNFFLJPW7KQ
 
