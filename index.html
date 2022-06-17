@@ -3,20 +3,41 @@
 <head>
 	<title>Ringa Tech - Red neuronal</title>
 	<style type="text/css">
-		#sitio {
-			padding: 5rem;
-			font-size: 5rem;
-			margin-left: 15rem;
+		body {
+ 			 display: flex;
 		}
+		
+		}
+		@media (orientation: landscape) {
+			  body {
+			    flex-direction: row;
+		  }
+			#sitio {
+				padding: 5rem;
+				font-size: 75vh;
+				margin-left: 15rem;
+		  }
+		}
+
+			@media (orientation: portrait) {
+			  body {
+			    flex-direction: column;
+		  }
+			#sitio {
+				padding: 5rem;
+				font-size: 5rem;
+				margin-left: 15rem;
+		  }
+		
 	</style>
 </head>
 <body>
-	<input data-jscolor="{value:'#CC66FF'}", onInput="update(this.jscolor)">
-	<div id="sitio">
+	<div id="sitio" contenteditable="true">
 		Mi sitio web
 	</div>
-        <input type"text"><input type="submit">
-
+	<input data-jscolor="{value:'#CC66FF'}", onInput="update(this.jscolor)">
+	
+      
 	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jscolor/2.4.5/jscolor.min.js"></script>
 	<script src="https://unpkg.com/brain.js"></script>
 
